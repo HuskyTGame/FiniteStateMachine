@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/SerializableFiniteStateMachine/Scenes/SerializableFiniteStateMachine.unity
+  isLoaded: 1
+  isActive: 1

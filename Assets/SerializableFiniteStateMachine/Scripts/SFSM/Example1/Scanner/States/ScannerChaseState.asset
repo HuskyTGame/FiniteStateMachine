@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f4d202df437cc647a048e09000f1f16, type: 3}
+  m_Name: ScannerChaseState
+  m_EditorClassIdentifier: 
+  Actions:
+  - {fileID: 11400000, guid: b2f6987c79e86c54289155efa1d3e2b6, type: 2}
+  - {fileID: 11400000, guid: 4e74f5c02dd6f344d9bcf8b732279b84, type: 2}
+  Transitions:
+  - Decision: {fileID: 11400000, guid: 21c11d44b9cb6564a9e226db6ea3cbe1, type: 2}
+    TrueState: {fileID: 11400000, guid: 759caba86cd6d0e46907f646f30e4146, type: 2}
+    FalseState: {fileID: 11400000, guid: 719b9a6f93789a34483df6c538ac8220, type: 2}
